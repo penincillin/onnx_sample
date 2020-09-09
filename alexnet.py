@@ -39,7 +39,8 @@ def run_model():
 
 
 def main():
-    # onnx_model = load_onnx_model()
+    torch_to_onnx()
+    load_onnx_model()
     run_model()
 
 
